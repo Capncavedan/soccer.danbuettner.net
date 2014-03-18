@@ -1,0 +1,32 @@
+* {
+  background-color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.center {
+  text-align: center;
+}
+#content {
+  width: 80%;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  padding-top: 1em;
+}
+table.alternating {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid #ccc;
+}
+table.alternating thead {
+  border-bottom: 2px solid #ccc;
+}
+table.alternating td, table.alternating th {
+  padding: 3px;
+}
+table.alternating tr.odd td {
+  background-color: #eee;
+}
+table.alternating tr.even td {
+  background-color: #cdcdcd;
+}
