@@ -42,7 +42,6 @@ div.coach {
 }
 h1 {
   text-align: center;
-  padding-top: 1em;
 }
 table.alternating {
   border-collapse: collapse;
@@ -57,13 +56,16 @@ table.alternating thead th {
   text-align: left;
 }
 table.alternating td, table.alternating th {
-  padding: 3px;
+  padding: 10px 5px;
 }
-table.alternating tr.odd td {
+table.alternating tbody tr:nth-child(2n+0) {
+  background-color: #cdcdcd;
+}
+table.alternating tbody tr:nth-child(2n+1) {
   background-color: #eee;
 }
-table.alternating tr.even td {
-  background-color: #cdcdcd;
+table.alternating tbody tr:hover {
+  background-color: #84FA66;
 }
 table.alternating tr.completed {
   text-decoration: line-through;
