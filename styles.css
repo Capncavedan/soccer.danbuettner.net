@@ -46,6 +46,9 @@ h1 {
 .center {
   text-align: center;
 }
+div.center {
+  margin: 0 auto;
+}
 table.alternating {
   border-collapse: collapse;
   width: 100%;
