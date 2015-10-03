@@ -73,6 +73,9 @@ table.alternating tbody tr:nth-child(2n+1) {
 table.alternating tbody tr:hover {
   background-color: #84FA66;
 }
-table.alternating tbody tr.completed {
+table.alternating tbody tr.completed td {
   text-decoration: line-through;
+}
+table.alternating tbody tr.completed td.score {
+  text-decoration: none;
 }
