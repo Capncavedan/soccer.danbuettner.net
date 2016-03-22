@@ -40,9 +40,6 @@ div.coach {
   display: inline-block;
   width: 30%;
 }
-h1 {
-  text-align: center;
-}
 .center {
   text-align: center;
 }
@@ -78,4 +75,11 @@ table.alternating tbody tr.completed td {
 }
 table.alternating tbody tr.completed td.score {
   text-decoration: none;
+}
+div.well {
+  background: #ddd;
+  padding: 2em;
+  margin: 1em;
+  border-radius: 16px;
+  border: 4px solid #bbb;
 }

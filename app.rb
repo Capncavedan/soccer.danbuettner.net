@@ -9,4 +9,14 @@ class SoccerApp < Sinatra::Base
     haml :index
   end
 
+  get '/girls' do
+    content_type "text/html"
+    haml :girls
+  end
+
+  get '/boys' do
+    content_type "text/html"
+    haml :boys
+  end
+
 end
