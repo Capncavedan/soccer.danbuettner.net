@@ -83,3 +83,6 @@ div.well {
   border-radius: 16px;
   border: 4px solid #bbb;
 }
+.width-600 {
+  width: 600px;
+}
