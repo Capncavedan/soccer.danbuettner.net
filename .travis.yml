@@ -1,0 +1,12 @@
+sudo: false
+language: ruby
+rvm: 2.3.1
+deploy:
+  provider: heroku
+  api_key:
+    secure: VSJtSqPR0pwUgSvlp6ze1gVF3qdXQbkckzhxtiTNcOQ6qW4MiEKk08VUof11604DP/S+RxARCzr8hlrg+SlwIo7dVfBVfcO11s5YMEF6gfj3hjSs42pqo7FV6wRKDQhhMGNRF2SfF/3rNkz0P2Qks8oAduSw8XnCXwD/QQbTtA6OIz/jyz6oYbDsS3nx+KsADqvkqGWCL8JCBxgdn0UA79t+cAhWJEq5xjF9/DNhkvxIp0KJW7co0nRT/wHD+psaBWo0/29EX/QV2cPwSruF314ku0RFunNmPsploYqCp8KIAdDpRdwpNTQeDaTV670NLH44npb64brw6IrktiTaiBOurU5Upe7wsFRjQqnzgWJ29i+ziK9yidCV4Fz0JzZpUMGgW7ZZ0hoMkQSXlq3i89V4vLUNhTCSpoYHUVg7kYN3iR5ANqrBKVIeunOyAtwI5pm87YuL83OibDzVP4NEt4TmKXtEI2qvStmpeeLrLbztfV/s5uqoNx8gzDk+tyZi0OHUVphTEm+eaEqIyzPEMYVEItkW0OrNU2ATnp9OzJ2miL1k/aZ2kPg6Idb4v8evnPkKikWglNDyAplR/BQdFJKy+Lpj5dThFOACaBU68csxNL7cnmIjRxDmqyrjAMnkcM44ydzRc/VfG4AefrWmmYvwoGSbdGmyZnaizBJUrCo=
+  app:
+    master: soccer-danbuettner-net
+  on:
+    repo: Capncavedan/soccer.danbuettner.net
+cache: bundler
