@@ -8,3 +8,7 @@ gem "haml"
 gem "puma"
 gem "rake"
 gem "shotgun"
+
+group :test, :development do
+  gem "rspec"
+end
