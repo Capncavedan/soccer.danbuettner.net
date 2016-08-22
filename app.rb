@@ -19,4 +19,9 @@ class SoccerApp < Sinatra::Base
     haml :h8j
   end
 
+  get '/h10d' do
+    content_type "text/html"
+    haml :h10d
+  end
+
 end
