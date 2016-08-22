@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 RSpec.describe 'h12r' do
 
   before do
