@@ -5,7 +5,7 @@ RSpec.describe 'h12r' do
   end
 
   it "has a bit of text" do
-    expect(last_response.body).to include "NW Soccer Team H12R"
+    expect(last_response.body).to include "Team H12R"
   end
 
 end
